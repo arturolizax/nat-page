@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: verdana;
+    text-align: center;
+}
+.contenedor{
+    width: 1200px;
+}
+.centrar{
+    text-align: center;
+}
+
+/*Header*/
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo{
+    color: white;
+    font-family: verdana;
+    font-size: 40px; 
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.menu li a:hover{
+    color: #480ecf;
+}
+
+.botones{
+    display: flex;
+    gap: 10px;
+}
+
+.primer-boton{
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.segundo-boton{
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.primer-boton:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.segundo-boton:hover {
+    background-color: white;
+    color: #007bff;
+}
+
+/*Bloque1*/
+.bloque{
+    display: flex;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    font-family: arial;
+    font: bold;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.textBloque{
+    background-color: rgb(216, 198, 233);
+    padding: 20px;
+    margin: 40px;
+    color: black;
+}
+
+.cuerpo{
+    padding: 20px;
+}
+
+.boton1{
+    background-color: #7b198f;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #7b198f;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton1:hover {
+    background-color: white;
+    color: #7b198f;
+}
+
+.centerForo{
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+}
+
+.centerForo img{
+    width: 90%;
+    display: flex;
+}
+/*Footer*/
+
+footer{
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.footer{
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+}
+
+.footer h3{
+    color: white;
+}
+
+.datosFooter{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.textFooter img{
+    width: 200px;
+}
+
+.fotoFooter img{
+    width: 20px;
+}
+
+/*Chat en Vivo*/
+
+.input{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+}
+.textarea{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.boton2{
+    background-color: #20C997;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #20C997;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton2:hover {
+    background-color: white;
+    color: #20C997;
+}
